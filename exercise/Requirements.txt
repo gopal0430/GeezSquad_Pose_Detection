@@ -1,0 +1,47 @@
+
+
+
+# Install only what you need & Specific version:
+pip install mediapipe==0.10.21 opencv-python pyttsx3 numpy
+
+
+
+# Install all what need  :
+pip install opencv-python mediapipe pyttsx3 numpy
+
+
+
+# UnInstall all what need  :
+pip uninstall numpy
+
+
+pip uninstall pyttsx3
+pip install pyttsx3
+
+
+
+
+
+#Check & Run this to see current versions:
+
+pip show protobuf numpy
+
+
+
+#freeze installed in the system & write for later use:
+
+pip freeze > requirements.txt
+
+Then you can reinstall later with:
+
+pip install -r requirements.txt
+
+
+
+
+
+# Create a new virtual environment
+python -m venv squat-env
+source squat-env/bin/activate  # or squat-env\Scripts\activate on Windows
+
+
